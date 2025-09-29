@@ -18,9 +18,13 @@ const SignIn = () => {
         {/* Login Form */}
         <div className='h-[420px] w-[380px] border-[1px] px-[40px] py-4 rounded-xl border-[#d9d9d9]'>
             <h1 className='text-2xl font-bold mb-5'>Sign In</h1>
-            <Enter/>
-            <Button/>
-            <Buy/>
+            <Enter label="Email or Mobile Number" inpType='email' className='mb-1' clas='mb-1 mt-2'/>
+            <Button text="Continue" prop='mt-3 mb-4'/>
+            <Buy
+            des="By continuing"
+            exc="Need help" 
+            to='/signup'
+            detail='Create a free Business Account'/>
         </div>
 
         {/* Footer */}
