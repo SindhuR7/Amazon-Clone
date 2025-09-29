@@ -1,10 +1,11 @@
+import SignIn from "./pages/SignIn"
 
 
 function App() {
 
   return (
     <>
-    <h1>Alui Raza</h1>
+    <SignIn/>
     </>
   )
 }
