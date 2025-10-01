@@ -69,7 +69,7 @@ const SignUp = () => {
 
           <Button text="Verify Mobile Number" prop="mt-3 w-[300px] mb-3" onClick={handleSubmit}  to='/verify'/>
 
-          <Buy des="By creating an Account or logged in" exc="Sign In" more='Already have an Account? ' sign='/' detail='Shop on Amazon Business' />
+          <Buy des="By creating an Account or logged in" exc="Sign In" more='Already have an Account? ' sign='/sign' detail='Shop on Amazon Business' />
         </div>
 
         {/* Footer */}
